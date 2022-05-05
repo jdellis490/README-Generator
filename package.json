@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jdellis490/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^6.5.2"
   }
 }
