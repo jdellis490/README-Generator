@@ -1,4 +1,4 @@
-// Create a function to generate markdown for README
+// Function to generate markdown for README with added licence badge and link
 function generateMarkdown(data) {
   return `
 # ${data.title}
