@@ -1,5 +1,5 @@
 
-# WELCOME HOME
+# King Me
 
 ## Description
 undefined
@@ -37,4 +37,4 @@ The project license is under MIT
 
 ## Questions
 
-Contact me on GitHub: https://github.com/JDKELO or email IKWND@YAHoo.com for any addtional questions.
+Contact me on GitHub: https://github.com/kda or email awdwa for any addtional questions.
