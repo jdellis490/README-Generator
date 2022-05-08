@@ -7,5 +7,7 @@ This project uses a node.js application which takes a users input from a list of
 To install one must simple run `npm init` and `npm install inquirer` into the terminal
 
 ## Usage
-To use run command `node index.js` in the root terminal of project and answer questions that are prompted Here is a video example:
+To use run command `node index.js` in the root terminal of project and answer questions that are prompted. Here is a video example:
+
+https://user-images.githubusercontent.com/81279037/167315591-c474b2a8-c161-44fe-9251-a6c15d34ff8c.mp4
 
