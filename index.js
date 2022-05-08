@@ -8,36 +8,36 @@ const questions = [
       name: 'title',
       message: 'What is the name of the project?',
     },
-    {
-      type: 'input',
-      name: 'description',
-      message: 'Describe the project',
-    },
-    {
-      type: 'input',
-      name: 'installation',
-      message: 'How is the project installed?',
-    },
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'How is the project used?',
-    },
-    {
-      type: 'input',
-      name: 'contribution',
-      message: 'How do I contribute to this project?',
-    },
-    {
-      type: 'input',
-      name: 'tests',
-      message: 'How is the project tested?',
-    },
+    // {
+    //   type: 'input',
+    //   name: 'description',
+    //   message: 'Describe the project',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'installation',
+    //   message: 'How is the project installed?',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'usage',
+    //   message: 'How is the project used?',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'contribution',
+    //   message: 'How do I contribute to this project?',
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'tests',
+    //   message: 'How is the project tested?',
+    // },
     {
       type: 'list',
       name: 'license',
       message: 'Which license was used?',
-      choices: '[MIT, GPLv2, GPLv3, Other]'
+      choices: ['MIT', 'Apache_2.0', 'GPLv2', 'GPLv3', 'BSD_3-git -Clause', 'Other']
     },
     {
       type: 'input',

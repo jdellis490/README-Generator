@@ -1,54 +1,43 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+# ${data.title}
 
-        ## Description
+## Description
+${data.description}
 
-        ${data.description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [How to contirbute](#how-to-contribute)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+## Installation
 
-        ## Table of Contents
+${data.installation}
 
-        [Installation](#installation)
-        [Usage](#usage)
-        [License](#license)
+## Usage
 
-        ## Installation
+${data.usage}
 
-        ${data.installation}
+## How to Contribute
 
-        ##Usage
+${data.contribution}
 
-        ${data.usage}
+## Tests
 
-        ## How to Contribute
+${data.tests}
 
-        ${data.contribution}
+## License
 
-        ## Tests
+The project license is under ${data.license}\n
+![GitHub license](https://img.shields.io/badge/license-${data.license}-brightgreen.svg)\n
+(https://opensource.org/licenses/${data.license})
 
-        ${data.tests}
+## Questions
 
-        ## License
-
-        ${data.license}
-
-        ## Questions
-
-        Contact ${data.github} on GitHub or email ${data.email} for any addtional questions.
-
-
+Contact me on GitHub: https://github.com/${data.github} or email ${data.email} for any addtional questions.
 `;
 }
 
